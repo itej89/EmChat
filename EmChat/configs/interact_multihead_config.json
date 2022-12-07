@@ -1,0 +1,18 @@
+{
+   "dataset_path": "/content/drive/MyDrive/EMChat/EmChat/dataset/daily_dialog.json" ,
+   "model" : "openai-gpt",
+   "dataset_cache": "/content/drive/MyDrive/EMChat/EmChat/caches/daily_dialog_multihead",
+   "model_checkpoint": "/content/drive/MyDrive/EMChat/EmChat/checkpoint_multihead",
+   "max_history" : 2,
+   "device" : "cuda:0",
+   "no_sample" : true,
+   "max_length" : 20,
+   "min_length" : 1,
+   "seed" : 42,
+   "temperature" : 0.7,
+   "top_k" : 0,
+   "top_p" : 0.9,
+   
+   "train_batch_size": 1,
+   "valid_batch_size": 1
+}
